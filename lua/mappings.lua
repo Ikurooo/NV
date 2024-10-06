@@ -8,6 +8,8 @@ local M = {}
 
 M.general = {
     i = {
+        ["<C-h>"] = { "<C-w>", "Delete til word start" },
+        ["<C-BS>"] = { "<C-w>", "Delete til word start" },
         ["<S-Tab>"] = { "<ESC><C-w>W", "Cycle active window" },
         ["<S-Left>"] = { "<ESC>v<Left>", "Highlight and move left" },
         ["<S-Right>"] = { "<ESC>v<Right>", "Highlight and move right" },
